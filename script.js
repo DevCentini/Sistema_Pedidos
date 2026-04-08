@@ -1,9 +1,9 @@
 // --- Datos de Productos (se puedes expandir esta lista) ---
 const products = [
-    { id: 1, name: 'Banana', image: 'images/banana.webp' },
-    { id: 2, name: 'Brocoli', image: 'images/brocoli.webp' },
-    { id: 3, name: 'Lechuga', image: 'images/lechuga_crespa.png' },
-    { id: 4, name: 'Manzana', image: 'images/manzana.webp' },
+    { id: 1, name: 'Acelga', image: 'images/Acelga Salta.png' },
+    { id: 2, name: 'Achicoria', image: 'images/Achicoria.jpg' },
+    { id: 3, name: 'Aji Dulce', image: 'images/aji dulce.jfif' },
+    { id: 4, name: 'Aji Picante', image: 'images/Ajl Picante.png' },
     { id: 5, name: 'Naranja', image: 'images/naranja.webp' },
     { id: 6, name: 'Tomate', image: 'images/tomate_redondo.webp' },
     { id: 7, name: 'Tomate', image: 'images/tomate_redondo.webp' },
@@ -192,7 +192,7 @@ orderForm.addEventListener('submit', function(event) {
     orderDetails += `¡Gracias!`;
 
     // Número de WhatsApp (reemplaza con tu número de teléfono de WhatsApp, ej. '5491112345678')
-    const whatsappNumber = '5493644409574';
+    const whatsappNumber = '5493644597460';
 
     // Codificar el mensaje para la URL de WhatsApp
     const encodedMessage = encodeURIComponent(orderDetails);
