@@ -31,7 +31,32 @@ const products = [
     { id: 29, name: 'Lechuga Crespa', image: 'images/Lechuga Crespa M.jfif' },
     { id: 30, name: 'Limon', image: 'images/Limon comun S.jfif' },
     { id: 31, name: 'Manzana Elegida', image: 'images/Manzana especial.png' },
-    { id: 32, name: 'Melon Blanco', image: 'Melon blanco.jfif' }, ];
+    { id: 32, name: 'Melon Blanco', image: 'Melon blanco.jfif' }, 
+    { id: 33, name: 'Naranja Jugo', image: 'Naranja jugo.jfif' },
+    { id: 34, name: 'Palta Hass', image: 'Palta Hass.jfif' },
+    { id: 35, name: 'Papa Blanca', image: 'Papa blanca.jfif' },
+    { id: 36, name: 'Papaya', image: 'Papaya.jfif' },
+    { id: 37, name: 'Papin', image: 'Papin.jfif' },
+    { id: 38, name: 'Pelon Blanco', image: 'Pelon blanco.jfif' },
+    { id: 39, name: 'Pepino', image: 'Pepino.jfif' },
+    { id: 40, name: 'Pera Comun', image: 'Pera Comun.jfif' },
+    { id: 41, name: 'Pimiento Rojo', image: 'Pimiento Morron Rojo.jfif' },
+    { id: 42, name: 'Pomelo Rojo', image: 'Pomelo rojo.jfif' },
+    { id: 43, name: 'Puerro', image: 'Puerro.png' },
+    { id: 44, name: 'Rabanito', image: 'Rabanito.jfif' },
+    { id: 45, name: 'Repollo Blanco', image: 'Repollo blanco.jfif' },
+    { id: 46, name: 'Repollo Color', image: 'Repollo color.jfif' },
+    { id: 47, name: 'Tomate Cherri', image: 'Tomate Cherri.jfif' },
+    { id: 48, name: 'Tomate Redondo', image: 'Tomate redondo.jfif' },
+    { id: 49, name: 'Uva Blanca', image: 'Uva Blanca.jfif' },
+    { id: 50, name: 'Uva Negra', image: 'Uva negra.jfif' },
+    { id: 51, name: 'Uva Red Glover', image: 'Uva red glover.jfif' },
+    { id: 52, name: 'Zanahoria 10K', image: 'Zanahoria10k Comun.jfif' },
+    { id: 53, name: 'Zanahoria 18k', image: 'Zanahoria 18k Comun.jfif' },
+    { id: 54, name: 'Zanahoria Frac.', image: 'zanahoria fracc 20.jpg' },
+    { id: 55, name: 'Zanahoria Moño', image: 'Zanahoria Moño.avif' },
+    { id: 56, name: 'Zapallito Tronco', image: 'Zapallito tronco.jfif' }, ];
+
 
 let cart = []; // Array para almacenar los productos en el carrito
 
