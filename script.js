@@ -55,6 +55,7 @@ const products = [
     { id: 53, name: 'Zanahoria 18k', image: 'Zanahoria 18k Comun.jfif' },
     { id: 54, name: 'Zanahoria Frac.', image: 'zanahoria fracc 20.jpg' },
     { id: 55, name: 'Zanahoria Moño', image: 'Zanahoria Moño.avif' },
+    { id: 55, name: 'Imagen', image: 'publicidad.png' },
     { id: 56, name: 'Zapallito Tronco', image: 'Zapallito tronco.jfif' }, ];
 
 
