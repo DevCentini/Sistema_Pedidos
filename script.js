@@ -56,7 +56,8 @@ const products = [
     { id: 54, name: 'Zanahoria Frac.', image: 'zanahoria fracc 20.jpg' },
     { id: 55, name: 'Zanahoria Moño', image: 'Zanahoria Moño.avif' },
     { id: 56, name: 'Imagen', image: 'publicidad.png' },
-    { id: 57, name: 'Zapallito Tronco', image: 'zapallito.jfif' }, ];
+    { id: 57, name: 'PubliImagen', image: 'BananaEcuador.jpg' },
+    { id: 58, name: 'Zapallito Tronco', image: 'zapallito.jfif' }, ];
 
 
 let cart = []; // Array para almacenar los productos en el carrito
