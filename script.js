@@ -55,8 +55,8 @@ const products = [
     { id: 53, name: 'Zanahoria 18k', image: 'Zanahoria 18k Comun.jfif' },
     { id: 54, name: 'Zanahoria Frac.', image: 'zanahoria fracc 20.jpg' },
     { id: 55, name: 'Zanahoria Moño', image: 'Zanahoria Moño.avif' },
-    { id: 55, name: 'Imagen', image: 'publicidad.png' },
-    { id: 56, name: 'Zapallito Tronco', image: 'Zapallito tronco.jfif' }, ];
+    { id: 56, name: 'Imagen', image: 'publicidad.png' },
+    { id: 57, name: 'Zapallito Tronco', image: 'zapallito.jfif' }, ];
 
 
 let cart = []; // Array para almacenar los productos en el carrito
@@ -146,7 +146,7 @@ function renderCart() {
     cartItemsContainer.innerHTML = '';
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = '<p>Tu carrito está vacío.</p>';
-        cartTotalAmount.textContent = '0.00';
+//        cartTotalAmount.textContent = '0.00';
         return;
     }
 
@@ -169,7 +169,7 @@ function renderCart() {
         cartItemsContainer.appendChild(cartItemDiv);
         total += item.price * item.quantity;
     });
-    cartTotalAmount.textContent = total.toFixed(2);
+//    cartTotalAmount.textContent = total.toFixed(2);
 }
 
 // --- Envío del Pedido por WhatsApp ---
